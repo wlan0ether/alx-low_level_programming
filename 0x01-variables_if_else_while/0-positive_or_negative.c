@@ -2,7 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/* int main is a line of code to show the beginning of the program*/
+/**
+ * main - Entry point
+ * Return: Always 0 (Success)
+ * */
 int main(void)
 {
 	int n;
