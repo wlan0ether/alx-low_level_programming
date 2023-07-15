@@ -4,7 +4,7 @@
 	
 /**
  * main - Entry point
- * Return: Always return 0 (Success)
+ * Return: Always return 0(Success)
 */
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	q = n % 9;
+	q = n % 10;
 	if (q > 5)
 		printf("Last digit of %d is %d and is greater than 5\n", n, q);
 	if (q == 0)
