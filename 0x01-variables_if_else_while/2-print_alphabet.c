@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program
+ * main - program entry
  *
- * Return: 0 on success, non-zero on failure
- */
+ * Return: 0 (success)
+*/
 int main(void)
 {
-	for (char i = "a"; i <= "z"; i++)
+	for (char i = 'a'; i <= 'z'; i++)
 	{
 		putchar(i);
 	}
-	putchar("\n");
-
+	putchar('\n');
+	
 	return 0;
 
 }
