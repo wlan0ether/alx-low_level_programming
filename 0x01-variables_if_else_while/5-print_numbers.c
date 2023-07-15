@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - program entry
  *
@@ -8,11 +7,9 @@
 int main(void) 
 {
 	int i;
-
 	for (i = 0; i <= 9; i++)
 	{
-		printf("The value, %d is less than 10\n", i);
+		printf("%d\n", i);
 	}
-
-	return 0;
+	return (0);
 }
