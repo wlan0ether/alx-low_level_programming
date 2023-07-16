@@ -9,15 +9,17 @@ int main(void)
 {
 	char smallalpha, capitalalpha;
 
-	for (smallalpha = 'a'; smallapha <= 'z'; smallalpha++)
+	for (smallalpha = 'a'; smallalpha <= 'z'; smallalpha++)
 	{
 		putchar(smallalpha);
 	}
 
 	for (capitalalpha = 'A'; capitalalpha <= 'Z'; capitalalpha++)
 	{
-		putchar(capitalalpha)
+		putchar(capitalalpha);
 	}
+
+	putchar('\n');
 
 	return (0);
 }
