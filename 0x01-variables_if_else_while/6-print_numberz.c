@@ -3,7 +3,7 @@
  * main - program entry
  * 
  * Return: 0 (success)
- */
+*/
 int main(void)
 {
 	int q;
