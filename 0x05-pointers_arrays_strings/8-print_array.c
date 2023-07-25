@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print array - print number of an array
+ * print_array - print number of an array
  * @a: pointer to an int
  * @n: no of array
  * Return: void
@@ -14,7 +14,7 @@ void print_array(int *a, int n)
 	{
 		printf("%d", a[i]);
 
-	if (i != (n -1))
+	if (i != (n - 1))
 	{
 		printf(", ");
 	}
